@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yS3wkUL9RnfJsEKxIHqYb8Ywu2C8aTs2AO2ct+1Bz051smOJXrnNg+F3gJDLRkzFfxXpRvx9MPue7sCt7MiGZg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rishi\\source\\repos\\InterviewWebAPIQuestions\\InterviewWebAPIQuestions\\InterviewWebAPIQuestions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rishi\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\rishi\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\rishi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
