@@ -27,3 +27,4 @@ C:\Users\rishi\source\repos\InterviewWebAPIQuestions\InterviewWebAPIQuestions\bi
 C:\Users\rishi\source\repos\InterviewWebAPIQuestions\InterviewWebAPIQuestions\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\rishi\source\repos\InterviewWebAPIQuestions\InterviewWebAPIQuestions\obj\Debug\net8.0\InterviewWebAPIQuestions.csproj.AssemblyReference.cache
 C:\Users\rishi\source\repos\InterviewWebAPIQuestions\InterviewWebAPIQuestions\obj\Debug\net8.0\Intervie.AE45A0B6.Up2Date
+C:\Users\rishi\source\repos\InterviewWebAPIQuestions\InterviewWebAPIQuestions\obj\Debug\net8.0\InterviewWebAPIQuestions.sourcelink.json
