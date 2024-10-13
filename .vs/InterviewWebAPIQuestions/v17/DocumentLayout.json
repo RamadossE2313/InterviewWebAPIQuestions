@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\rishi\\source\\repos\\InterviewWebAPIQuestions\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFECDBF-6CB4-4D3B-9E67-B14336F73441}|InterviewWebAPIQuestionsTests\\InterviewWebAPIQuestionsTests.csproj|c:\\users\\rishi\\source\\repos\\interviewwebapiquestions\\interviewwebapiquestionstests\\controllerstests\\productscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFECDBF-6CB4-4D3B-9E67-B14336F73441}|InterviewWebAPIQuestionsTests\\InterviewWebAPIQuestionsTests.csproj|solutionrelative:interviewwebapiquestionstests\\controllerstests\\productscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44D75858-DE74-42A4-A698-AB11C3994E12}|InterviewWebAPIQuestions\\InterviewWebAPIQuestions.csproj|c:\\users\\rishi\\source\\repos\\interviewwebapiquestions\\interviewwebapiquestions\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D75858-DE74-42A4-A698-AB11C3994E12}|InterviewWebAPIQuestions\\InterviewWebAPIQuestions.csproj|solutionrelative:interviewwebapiquestions\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44D75858-DE74-42A4-A698-AB11C3994E12}|InterviewWebAPIQuestions\\InterviewWebAPIQuestions.csproj|c:\\users\\rishi\\source\\repos\\interviewwebapiquestions\\interviewwebapiquestions\\handlers\\getproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D75858-DE74-42A4-A698-AB11C3994E12}|InterviewWebAPIQuestions\\InterviewWebAPIQuestions.csproj|solutionrelative:interviewwebapiquestions\\handlers\\getproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFECDBF-6CB4-4D3B-9E67-B14336F73441}|InterviewWebAPIQuestionsTests\\InterviewWebAPIQuestionsTests.csproj|c:\\users\\rishi\\source\\repos\\interviewwebapiquestions\\interviewwebapiquestionstests\\handlerstests\\getproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFECDBF-6CB4-4D3B-9E67-B14336F73441}|InterviewWebAPIQuestionsTests\\InterviewWebAPIQuestionsTests.csproj|solutionrelative:interviewwebapiquestionstests\\handlerstests\\getproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFECDBF-6CB4-4D3B-9E67-B14336F73441}|InterviewWebAPIQuestionsTests\\InterviewWebAPIQuestionsTests.csproj|c:\\users\\rishi\\source\\repos\\interviewwebapiquestions\\interviewwebapiquestionstests\\servicestests\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFECDBF-6CB4-4D3B-9E67-B14336F73441}|InterviewWebAPIQuestionsTests\\InterviewWebAPIQuestionsTests.csproj|solutionrelative:interviewwebapiquestionstests\\servicestests\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44D75858-DE74-42A4-A698-AB11C3994E12}|InterviewWebAPIQuestions\\InterviewWebAPIQuestions.csproj|c:\\users\\rishi\\source\\repos\\interviewwebapiquestions\\interviewwebapiquestions\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D75858-DE74-42A4-A698-AB11C3994E12}|InterviewWebAPIQuestions\\InterviewWebAPIQuestions.csproj|solutionrelative:interviewwebapiquestions\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\rishi\\source\\repos\\InterviewWebAPIQuestions\\InterviewWebAPIQuestionsTests\\ControllersTests\\ProductsControllerTests.cs",
+              "RelativeDocumentMoniker": "InterviewWebAPIQuestionsTests\\ControllersTests\\ProductsControllerTests.cs",
+              "ToolTip": "C:\\Users\\rishi\\source\\repos\\InterviewWebAPIQuestions\\InterviewWebAPIQuestionsTests\\ControllersTests\\ProductsControllerTests.cs",
+              "RelativeToolTip": "InterviewWebAPIQuestionsTests\\ControllersTests\\ProductsControllerTests.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:45:59.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\rishi\\source\\repos\\InterviewWebAPIQuestions\\InterviewWebAPIQuestions\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "InterviewWebAPIQuestions\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\rishi\\source\\repos\\InterviewWebAPIQuestions\\InterviewWebAPIQuestions\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "InterviewWebAPIQuestions\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAiwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:45:42.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetProductHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\rishi\\source\\repos\\InterviewWebAPIQuestions\\InterviewWebAPIQuestionsTests\\HandlersTests\\GetProductHandlerTests.cs",
+              "RelativeDocumentMoniker": "InterviewWebAPIQuestionsTests\\HandlersTests\\GetProductHandlerTests.cs",
+              "ToolTip": "C:\\Users\\rishi\\source\\repos\\InterviewWebAPIQuestions\\InterviewWebAPIQuestionsTests\\HandlersTests\\GetProductHandlerTests.cs",
+              "RelativeToolTip": "InterviewWebAPIQuestionsTests\\HandlersTests\\GetProductHandlerTests.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:31:15.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetProductHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rishi\\source\\repos\\InterviewWebAPIQuestions\\InterviewWebAPIQuestions\\Handlers\\GetProductHandler.cs",
+              "RelativeDocumentMoniker": "InterviewWebAPIQuestions\\Handlers\\GetProductHandler.cs",
+              "ToolTip": "C:\\Users\\rishi\\source\\repos\\InterviewWebAPIQuestions\\InterviewWebAPIQuestions\\Handlers\\GetProductHandler.cs",
+              "RelativeToolTip": "InterviewWebAPIQuestions\\Handlers\\GetProductHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:30:29.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\rishi\\source\\repos\\InterviewWebAPIQuestions\\InterviewWebAPIQuestionsTests\\ServicesTests\\ProductServiceTests.cs",
+              "RelativeDocumentMoniker": "InterviewWebAPIQuestionsTests\\ServicesTests\\ProductServiceTests.cs",
+              "ToolTip": "C:\\Users\\rishi\\source\\repos\\InterviewWebAPIQuestions\\InterviewWebAPIQuestionsTests\\ServicesTests\\ProductServiceTests.cs",
+              "RelativeToolTip": "InterviewWebAPIQuestionsTests\\ServicesTests\\ProductServiceTests.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAA8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:18:39.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\rishi\\source\\repos\\InterviewWebAPIQuestions\\InterviewWebAPIQuestions\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "InterviewWebAPIQuestions\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\rishi\\source\\repos\\InterviewWebAPIQuestions\\InterviewWebAPIQuestions\\Services\\ProductService.cs",
+              "RelativeToolTip": "InterviewWebAPIQuestions\\Services\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:18:15.569Z",
+              "EditorCaption": ""
             }
           ]
         }

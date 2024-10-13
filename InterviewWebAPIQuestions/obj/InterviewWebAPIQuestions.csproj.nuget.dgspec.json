@@ -48,6 +48,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
+            },
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.43.1, )"
             }
           },
           "imports": [

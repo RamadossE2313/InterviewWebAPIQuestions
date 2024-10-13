@@ -9,7 +9,7 @@ namespace InterviewWebAPIQuestions.Services
             await Task.Delay(1000);
             return new List<Product>
             {
-                new Product { Id = 1, Name = "test" }
+                new() { Id = 1, Name = "test" }
             };
         }
     }
