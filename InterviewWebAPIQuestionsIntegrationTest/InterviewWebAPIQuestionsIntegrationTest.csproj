@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\InterviewWebAPIQuestions\InterviewWebAPIQuestions.csproj" />
+    <ProjectReference Include="..\InterviewWebAPIQuestions\InterviewWebAPIQuestions.Api.csproj" />
   </ItemGroup>
 
 </Project>

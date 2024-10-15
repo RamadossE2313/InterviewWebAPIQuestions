@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "rm8dNbQOwP/nWu2fjMDE50ncOfTpnFJui4k3VHHfkmc=",
-  "Source": "InterviewWebAPIQuestions",
-  "BasePath": "_content/InterviewWebAPIQuestions",
+  "Hash": "kwDN0O9gHYSimSkXdGKC4g8B9WEpZeFdlI1W/D3fyAo=",
+  "Source": "InterviewWebAPIQuestions.Api",
+  "BasePath": "_content/InterviewWebAPIQuestions.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

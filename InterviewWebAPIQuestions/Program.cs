@@ -1,16 +1,23 @@
 using InterviewWebAPIQuestions;
+using InterviewWebAPIQuestions.Core.Interfaces;
+using InterviewWebAPIQuestions.Infra;
+using InterviewWebAPIQuestions.Infra.Implementations;
 using InterviewWebAPIQuestions.Services;
-using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 using System.Threading.RateLimiting;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddSingleton<CosmosDbService>();
+
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddDbContext<AppDbContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromAssemblies(typeof(Program).Assembly));
 

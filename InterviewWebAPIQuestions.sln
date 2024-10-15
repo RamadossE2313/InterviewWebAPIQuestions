@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewWebAPIQuestions", "InterviewWebAPIQuestions\InterviewWebAPIQuestions.csproj", "{44D75858-DE74-42A4-A698-AB11C3994E12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewWebAPIQuestions.Api", "InterviewWebAPIQuestions\InterviewWebAPIQuestions.Api.csproj", "{44D75858-DE74-42A4-A698-AB11C3994E12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewWebAPIQuestionsTests", "InterviewWebAPIQuestionsTests\InterviewWebAPIQuestionsTests.csproj", "{0FFECDBF-6CB4-4D3B-9E67-B14336F73441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewWebAPIQuestionsTests", "InterviewWebAPIQuestionsTests\InterviewWebAPIQuestionsTests.csproj", "{0FFECDBF-6CB4-4D3B-9E67-B14336F73441}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B54DA17C-AFA6-4A1E-81DF-084CAB84666A}"
 EndProject
@@ -13,7 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTestCases", "UnitTestCa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTestCases", "IntegrationTestCases", "{6941E0B9-F019-4056-9AD4-009FA13692EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewWebAPIQuestionsIntegrationTest", "InterviewWebAPIQuestionsIntegrationTest\InterviewWebAPIQuestionsIntegrationTest.csproj", "{D4A303CC-C55F-48E8-A9DE-BA831CD9E3CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewWebAPIQuestionsIntegrationTest", "InterviewWebAPIQuestionsIntegrationTest\InterviewWebAPIQuestionsIntegrationTest.csproj", "{D4A303CC-C55F-48E8-A9DE-BA831CD9E3CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewWebAPIQuestions.Core", "InterviewWebAPIQuestions.Core\InterviewWebAPIQuestions.Core.csproj", "{BC251563-0F58-4485-BF1A-E3EE4960D9FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewWebAPIQuestions.Infra", "InterviewWebAPIQuestions.Infra\InterviewWebAPIQuestions.Infra.csproj", "{A7E291CA-8463-4337-81CA-01CF053D3B4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{D4A303CC-C55F-48E8-A9DE-BA831CD9E3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4A303CC-C55F-48E8-A9DE-BA831CD9E3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4A303CC-C55F-48E8-A9DE-BA831CD9E3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC251563-0F58-4485-BF1A-E3EE4960D9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC251563-0F58-4485-BF1A-E3EE4960D9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC251563-0F58-4485-BF1A-E3EE4960D9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC251563-0F58-4485-BF1A-E3EE4960D9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E291CA-8463-4337-81CA-01CF053D3B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E291CA-8463-4337-81CA-01CF053D3B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E291CA-8463-4337-81CA-01CF053D3B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E291CA-8463-4337-81CA-01CF053D3B4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
