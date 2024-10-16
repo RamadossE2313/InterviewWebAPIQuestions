@@ -12,6 +12,10 @@ namespace InterviewWebAPIQuestions.Infra.Implementations
             _dbContext = dbContext;
         }
 
+        public IEnumerable<Product> GetProducts()
+        {
+            return _dbContext.Products;
+        }
         public async Task<Product?> GetByIdAsync(int id)
         {
             return await _dbContext.Products.FindAsync(id);

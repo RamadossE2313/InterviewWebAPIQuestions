@@ -3,6 +3,7 @@ using InterviewWebAPIQuestions.Core.Interfaces;
 using InterviewWebAPIQuestions.Infra;
 using InterviewWebAPIQuestions.Infra.Implementations;
 using InterviewWebAPIQuestions.Services;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.RateLimiting;
 
@@ -15,6 +16,7 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddSingleton<CosmosDbService>();
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+// Visual studio local connection string (Data Source=(localdb)\\MSSQLLocalDB;Integrated Security=True;Database=ProductDb)
 builder.Services.AddDbContext<AppDbContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -23,7 +25,17 @@ builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromA
 
 builder.Services.AddHttpContextAccessor();
 
+// versioning
+
+builder.Services.AddApiVersioning(options =>
+{
+    options.DefaultApiVersion = new ApiVersion(2, 0);
+    options.AssumeDefaultVersionWhenUnspecified = true;
+
+}).AddMvc();
+
 var serviceProvider = builder.Services.BuildServiceProvider();
+
 var httpContext = serviceProvider.GetService<IHttpContextAccessor>();
 //httpContext.Connection
 

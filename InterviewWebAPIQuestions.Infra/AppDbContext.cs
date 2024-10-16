@@ -7,44 +7,9 @@ namespace InterviewWebAPIQuestions.Infra
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
         
-        public DbSet<Product> Products { get; set; }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Product>().HasKey("Id");
-            modelBuilder.Entity<Product>().HasData(new List<Product>
-            {
-                new Product
-                {
-                    Id = 1,
-                    Name = "Product A",
-                    Price = 100
-                },
-                new Product
-                {
-                    Id = 2,
-                    Name = "Product B",
-                    Price = 200
-                },
-                new Product
-                {
-                    Id = 3,
-                    Name = "Product C",
-                    Price = 300
-                },
-                new Product
-                {
-                    Id = 4,
-                    Name = "Product D",
-                    Price = 400
-                },
-                new Product
-                {
-                    Id = 5,
-                    Name = "Product E",
-                    Price = 500
-                }
-            });
-        }
+        public DbSet<Product> Products { get; set; } = null!;
+        public DbSet<Order> Orders { get; set; } = null!;
+        public DbSet<Customer> Customers { get; set; } = null!;
+        public DbSet<OrderDetail> OrderDetails { get; set; } = null!;
     }
 }

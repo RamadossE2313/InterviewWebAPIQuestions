@@ -9,6 +9,7 @@ namespace InterviewWebAPIQuestions.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
+    [ApiVersion("1.0")]
     public class ProductsController : ControllerBase
     {
         private readonly IMediator _mediator;
